@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1078544490845",
+    "project_id": "bussinesapp15",
+    "storage_bucket": "bussinesapp15.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1078544490845:android:3034dbf827a15fd620c8b4",
+        "android_client_info": {
+          "package_name": "com.example.bussinesapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDeAT1snPwgu1Byxq_DOWNQxOse3aWpu8s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
