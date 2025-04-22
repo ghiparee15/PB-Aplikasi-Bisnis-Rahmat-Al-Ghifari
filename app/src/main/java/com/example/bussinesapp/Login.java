@@ -64,7 +64,7 @@ public class Login extends AppCompatActivity {
                                 if (snapshot.child(username).child("password").getValue(String.class).equals(password)){
                                     Toast.makeText(getApplicationContext(), "Login Berhasil",Toast.LENGTH_SHORT).show();
                                     // Kirim username yang login ke HomeActivity
-                                    Intent masuk = new Intent(getApplicationContext(), MainActivity.class);
+                                    Intent masuk = new Intent(getApplicationContext(), HomeActivity.class);
                                     masuk.putExtra("USERNAME", username); // Menambahkan username
                                     startActivity(masuk);
                                     finish();
